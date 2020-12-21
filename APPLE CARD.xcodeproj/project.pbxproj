@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CBF9CA52590B7A100CBF578 /* APPLE_CARDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBF9CA42590B7A100CBF578 /* APPLE_CARDApp.swift */; };
+		1CBF9CA72590B7A100CBF578 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBF9CA62590B7A100CBF578 /* ContentView.swift */; };
+		1CBF9CA92590B7A400CBF578 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CBF9CA82590B7A400CBF578 /* Assets.xcassets */; };
+		1CBF9CAC2590B7A400CBF578 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CBF9CAB2590B7A400CBF578 /* Preview Assets.xcassets */; };
+		1CBF9CB72590B7A400CBF578 /* APPLE_CARDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBF9CB62590B7A400CBF578 /* APPLE_CARDTests.swift */; };
+		1CBF9CC22590B7A400CBF578 /* APPLE_CARDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBF9CC12590B7A400CBF578 /* APPLE_CARDUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CBF9CB32590B7A400CBF578 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CBF9C992590B7A100CBF578 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CBF9CA02590B7A100CBF578;
+			remoteInfo = "APPLE CARD";
+		};
+		1CBF9CBE2590B7A400CBF578 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CBF9C992590B7A100CBF578 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CBF9CA02590B7A100CBF578;
+			remoteInfo = "APPLE CARD";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CBF9CA12590B7A100CBF578 /* APPLE CARD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "APPLE CARD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CBF9CA42590B7A100CBF578 /* APPLE_CARDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APPLE_CARDApp.swift; sourceTree = "<group>"; };
+		1CBF9CA62590B7A100CBF578 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1CBF9CA82590B7A400CBF578 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CBF9CAB2590B7A400CBF578 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1CBF9CAD2590B7A400CBF578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CBF9CB22590B7A400CBF578 /* APPLE CARDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "APPLE CARDTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CBF9CB62590B7A400CBF578 /* APPLE_CARDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APPLE_CARDTests.swift; sourceTree = "<group>"; };
+		1CBF9CB82590B7A400CBF578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CBF9CBD2590B7A400CBF578 /* APPLE CARDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "APPLE CARDUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CBF9CC12590B7A400CBF578 /* APPLE_CARDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APPLE_CARDUITests.swift; sourceTree = "<group>"; };
+		1CBF9CC32590B7A400CBF578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CBF9C9E2590B7A100CBF578 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CBF9CAF2590B7A400CBF578 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CBF9CBA2590B7A400CBF578 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CBF9C982590B7A100CBF578 = {
+			isa = PBXGroup;
+			children = (
+				1CBF9CA32590B7A100CBF578 /* APPLE CARD */,
+				1CBF9CB52590B7A400CBF578 /* APPLE CARDTests */,
+				1CBF9CC02590B7A400CBF578 /* APPLE CARDUITests */,
+				1CBF9CA22590B7A100CBF578 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CBF9CA22590B7A100CBF578 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CBF9CA12590B7A100CBF578 /* APPLE CARD.app */,
+				1CBF9CB22590B7A400CBF578 /* APPLE CARDTests.xctest */,
+				1CBF9CBD2590B7A400CBF578 /* APPLE CARDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CBF9CA32590B7A100CBF578 /* APPLE CARD */ = {
+			isa = PBXGroup;
+			children = (
+				1CBF9CA42590B7A100CBF578 /* APPLE_CARDApp.swift */,
+				1CBF9CA62590B7A100CBF578 /* ContentView.swift */,
+				1CBF9CA82590B7A400CBF578 /* Assets.xcassets */,
+				1CBF9CAD2590B7A400CBF578 /* Info.plist */,
+				1CBF9CAA2590B7A400CBF578 /* Preview Content */,
+			);
+			path = "APPLE CARD";
+			sourceTree = "<group>";
+		};
+		1CBF9CAA2590B7A400CBF578 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1CBF9CAB2590B7A400CBF578 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1CBF9CB52590B7A400CBF578 /* APPLE CARDTests */ = {
+			isa = PBXGroup;
+			children = (
+				1CBF9CB62590B7A400CBF578 /* APPLE_CARDTests.swift */,
+				1CBF9CB82590B7A400CBF578 /* Info.plist */,
+			);
+			path = "APPLE CARDTests";
+			sourceTree = "<group>";
+		};
+		1CBF9CC02590B7A400CBF578 /* APPLE CARDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1CBF9CC12590B7A400CBF578 /* APPLE_CARDUITests.swift */,
+				1CBF9CC32590B7A400CBF578 /* Info.plist */,
+			);
+			path = "APPLE CARDUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CBF9CA02590B7A100CBF578 /* APPLE CARD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CBF9CC62590B7A400CBF578 /* Build configuration list for PBXNativeTarget "APPLE CARD" */;
+			buildPhases = (
+				1CBF9C9D2590B7A100CBF578 /* Sources */,
+				1CBF9C9E2590B7A100CBF578 /* Frameworks */,
+				1CBF9C9F2590B7A100CBF578 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "APPLE CARD";
+			productName = "APPLE CARD";
+			productReference = 1CBF9CA12590B7A100CBF578 /* APPLE CARD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CBF9CB12590B7A400CBF578 /* APPLE CARDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CBF9CC92590B7A400CBF578 /* Build configuration list for PBXNativeTarget "APPLE CARDTests" */;
+			buildPhases = (
+				1CBF9CAE2590B7A400CBF578 /* Sources */,
+				1CBF9CAF2590B7A400CBF578 /* Frameworks */,
+				1CBF9CB02590B7A400CBF578 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CBF9CB42590B7A400CBF578 /* PBXTargetDependency */,
+			);
+			name = "APPLE CARDTests";
+			productName = "APPLE CARDTests";
+			productReference = 1CBF9CB22590B7A400CBF578 /* APPLE CARDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1CBF9CBC2590B7A400CBF578 /* APPLE CARDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CBF9CCC2590B7A400CBF578 /* Build configuration list for PBXNativeTarget "APPLE CARDUITests" */;
+			buildPhases = (
+				1CBF9CB92590B7A400CBF578 /* Sources */,
+				1CBF9CBA2590B7A400CBF578 /* Frameworks */,
+				1CBF9CBB2590B7A400CBF578 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CBF9CBF2590B7A400CBF578 /* PBXTargetDependency */,
+			);
+			name = "APPLE CARDUITests";
+			productName = "APPLE CARDUITests";
+			productReference = 1CBF9CBD2590B7A400CBF578 /* APPLE CARDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CBF9C992590B7A100CBF578 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					1CBF9CA02590B7A100CBF578 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					1CBF9CB12590B7A400CBF578 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 1CBF9CA02590B7A100CBF578;
+					};
+					1CBF9CBC2590B7A400CBF578 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 1CBF9CA02590B7A100CBF578;
+					};
+				};
+			};
+			buildConfigurationList = 1CBF9C9C2590B7A100CBF578 /* Build configuration list for PBXProject "APPLE CARD" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CBF9C982590B7A100CBF578;
+			productRefGroup = 1CBF9CA22590B7A100CBF578 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CBF9CA02590B7A100CBF578 /* APPLE CARD */,
+				1CBF9CB12590B7A400CBF578 /* APPLE CARDTests */,
+				1CBF9CBC2590B7A400CBF578 /* APPLE CARDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CBF9C9F2590B7A100CBF578 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CBF9CAC2590B7A400CBF578 /* Preview Assets.xcassets in Resources */,
+				1CBF9CA92590B7A400CBF578 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CBF9CB02590B7A400CBF578 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CBF9CBB2590B7A400CBF578 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CBF9C9D2590B7A100CBF578 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CBF9CA72590B7A100CBF578 /* ContentView.swift in Sources */,
+				1CBF9CA52590B7A100CBF578 /* APPLE_CARDApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CBF9CAE2590B7A400CBF578 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CBF9CB72590B7A400CBF578 /* APPLE_CARDTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CBF9CB92590B7A400CBF578 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CBF9CC22590B7A400CBF578 /* APPLE_CARDUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CBF9CB42590B7A400CBF578 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CBF9CA02590B7A100CBF578 /* APPLE CARD */;
+			targetProxy = 1CBF9CB32590B7A400CBF578 /* PBXContainerItemProxy */;
+		};
+		1CBF9CBF2590B7A400CBF578 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CBF9CA02590B7A100CBF578 /* APPLE CARD */;
+			targetProxy = 1CBF9CBE2590B7A400CBF578 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1CBF9CC42590B7A400CBF578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1CBF9CC52590B7A400CBF578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CBF9CC72590B7A400CBF578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"APPLE CARD/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RU9D45S73;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "APPLE CARD/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Shubham-Kumar.APPLE-CARD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1CBF9CC82590B7A400CBF578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"APPLE CARD/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RU9D45S73;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "APPLE CARD/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Shubham-Kumar.APPLE-CARD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1CBF9CCA2590B7A400CBF578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4RU9D45S73;
+				INFOPLIST_FILE = "APPLE CARDTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Shubham-Kumar.APPLE-CARDTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APPLE CARD.app/APPLE CARD";
+			};
+			name = Debug;
+		};
+		1CBF9CCB2590B7A400CBF578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4RU9D45S73;
+				INFOPLIST_FILE = "APPLE CARDTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Shubham-Kumar.APPLE-CARDTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APPLE CARD.app/APPLE CARD";
+			};
+			name = Release;
+		};
+		1CBF9CCD2590B7A400CBF578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4RU9D45S73;
+				INFOPLIST_FILE = "APPLE CARDUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Shubham-Kumar.APPLE-CARDUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "APPLE CARD";
+			};
+			name = Debug;
+		};
+		1CBF9CCE2590B7A400CBF578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4RU9D45S73;
+				INFOPLIST_FILE = "APPLE CARDUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Shubham-Kumar.APPLE-CARDUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "APPLE CARD";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CBF9C9C2590B7A100CBF578 /* Build configuration list for PBXProject "APPLE CARD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CBF9CC42590B7A400CBF578 /* Debug */,
+				1CBF9CC52590B7A400CBF578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CBF9CC62590B7A400CBF578 /* Build configuration list for PBXNativeTarget "APPLE CARD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CBF9CC72590B7A400CBF578 /* Debug */,
+				1CBF9CC82590B7A400CBF578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CBF9CC92590B7A400CBF578 /* Build configuration list for PBXNativeTarget "APPLE CARDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CBF9CCA2590B7A400CBF578 /* Debug */,
+				1CBF9CCB2590B7A400CBF578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CBF9CCC2590B7A400CBF578 /* Build configuration list for PBXNativeTarget "APPLE CARDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CBF9CCD2590B7A400CBF578 /* Debug */,
+				1CBF9CCE2590B7A400CBF578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CBF9C992590B7A100CBF578 /* Project object */;
+}
