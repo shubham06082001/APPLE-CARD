@@ -13,6 +13,8 @@
 		1CBF9CAC2590B7A400CBF578 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CBF9CAB2590B7A400CBF578 /* Preview Assets.xcassets */; };
 		1CBF9CB72590B7A400CBF578 /* APPLE_CARDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBF9CB62590B7A400CBF578 /* APPLE_CARDTests.swift */; };
 		1CBF9CC22590B7A400CBF578 /* APPLE_CARDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBF9CC12590B7A400CBF578 /* APPLE_CARDUITests.swift */; };
+		1CBF9CE62590C04F00CBF578 /* Langar-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CBF9CE52590C04F00CBF578 /* Langar-Regular.ttf */; };
+		1CBF9CEB2590C26700CBF578 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CBF9CEA2590C26700CBF578 /* Pacifico-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C6D630E2593562100A1F087 /* APPLE CARD.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "APPLE CARD.entitlements"; sourceTree = "<group>"; };
 		1CBF9CA12590B7A100CBF578 /* APPLE CARD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "APPLE CARD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CBF9CA42590B7A100CBF578 /* APPLE_CARDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APPLE_CARDApp.swift; sourceTree = "<group>"; };
 		1CBF9CA62590B7A100CBF578 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +48,8 @@
 		1CBF9CBD2590B7A400CBF578 /* APPLE CARDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "APPLE CARDUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CBF9CC12590B7A400CBF578 /* APPLE_CARDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APPLE_CARDUITests.swift; sourceTree = "<group>"; };
 		1CBF9CC32590B7A400CBF578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CBF9CE52590C04F00CBF578 /* Langar-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Langar-Regular.ttf"; sourceTree = "<group>"; };
+		1CBF9CEA2590C26700CBF578 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +100,8 @@
 		1CBF9CA32590B7A100CBF578 /* APPLE CARD */ = {
 			isa = PBXGroup;
 			children = (
+				1C6D630E2593562100A1F087 /* APPLE CARD.entitlements */,
+				1CBF9CD32590BCA900CBF578 /* fonts */,
 				1CBF9CA42590B7A100CBF578 /* APPLE_CARDApp.swift */,
 				1CBF9CA62590B7A100CBF578 /* ContentView.swift */,
 				1CBF9CA82590B7A400CBF578 /* Assets.xcassets */,
@@ -128,6 +135,15 @@
 				1CBF9CC32590B7A400CBF578 /* Info.plist */,
 			);
 			path = "APPLE CARDUITests";
+			sourceTree = "<group>";
+		};
+		1CBF9CD32590BCA900CBF578 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1CBF9CEA2590C26700CBF578 /* Pacifico-Regular.ttf */,
+				1CBF9CE52590C04F00CBF578 /* Langar-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +249,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CBF9CE62590C04F00CBF578 /* Langar-Regular.ttf in Resources */,
+				1CBF9CEB2590C26700CBF578 /* Pacifico-Regular.ttf in Resources */,
 				1CBF9CAC2590B7A400CBF578 /* Preview Assets.xcassets in Resources */,
 				1CBF9CA92590B7A400CBF578 /* Assets.xcassets in Resources */,
 			);
@@ -417,6 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "APPLE CARD/APPLE CARD.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"APPLE CARD/Preview Content\"";
 				DEVELOPMENT_TEAM = 4RU9D45S73;
@@ -429,6 +448,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Shubham-Kumar.APPLE-CARD";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -439,6 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "APPLE CARD/APPLE CARD.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"APPLE CARD/Preview Content\"";
 				DEVELOPMENT_TEAM = 4RU9D45S73;
@@ -451,6 +472,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Shubham-Kumar.APPLE-CARD";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
